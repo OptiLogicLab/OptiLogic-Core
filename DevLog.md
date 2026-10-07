@@ -22,6 +22,6 @@ Our goal was to eliminate "fake" closure-functions that implicitly captured oute
 |Multi-Layer Nesting(Danger/Violation) | 0|0|Zero Tolerance compliant|
 
 3. Key Technical Takeways
-1. Explicit Traceability: Refactoring implicit variable captures into explicit arguments ensures that variable origins are 100% obvious in traceback logs during remote SSH debugging.
-2. Simplified Unit Testing: Pure functions are decoupled from outer scope states, allowing straightforward, isolated testing.
-3. Class-Free State Machine Architecture: The remaining 4 flagged closures are not redundant "fake" closures, but rather essential state closures required for us Class-Freec state machine architecture. They provide strict state encapsulation without polluting the global scope.
+   1. Explicit Traceability: Refactoring implicit variable captures into explicit arguments ensures that variable origins are 100% obvious in traceback logs during remote SSH debugging.
+   2. Simplified Unit Testing: Pure functions are decoupled from outer scope states, allowing straightforward, isolated testing.
+   3. Class-Free State Machine Architecture: The remaining 4 flagged closures are not redundant "fake" closures, but rather essential state closures required for us Class-Freec state machine architecture. They provide strict state encapsulation without polluting the global scope.

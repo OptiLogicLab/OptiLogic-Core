@@ -3,6 +3,7 @@
 **Devlog:Runtime Scope Inspection & Closure Refactoring**
 
 **Targe**: Core Asyncio Event Loop
+
 **Focus**: Scope Traceability, Unit Testability & Class-Free State Machines
 
 ### 1. Context & Refactoring Goals

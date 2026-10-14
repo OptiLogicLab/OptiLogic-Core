@@ -1,6 +1,6 @@
 # Development log：
 ## 2026-10-06 Engineering Note:
-**Devlog**:Runtime Scope Inspection & Closure Refactoring
+**Devlog:Runtime Scope Inspection & Closure Refactoring**
 **Targe**: Core Asyncio Event Loop
 **Focus**: Scope Traceability, Unit Testability & Class-Free State Machines
 

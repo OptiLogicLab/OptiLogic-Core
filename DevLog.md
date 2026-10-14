@@ -1,6 +1,6 @@
 # Development log：
 ## 2026-10-06 Engineering Note:
-**Devlog:Runtime Scope Inspection & Closure Refactoring**
+**Runtime Scope Inspection & Closure Refactoring**
 
 **Targe**: Core Asyncio Event Loop
 
